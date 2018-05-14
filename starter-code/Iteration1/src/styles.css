@@ -1,0 +1,18 @@
+.fotos{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: center;
+  margin-top:100px;
+}
+
+img{
+  height:150px;
+  width:240px;  
+};
+
+figcaption{
+  text-align: right;
+}

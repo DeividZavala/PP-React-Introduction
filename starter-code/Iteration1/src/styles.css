@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.imagen1, .imagen2, .imagen3{
+  width: 25%;
+}
+
+img{
+  width: 70%;
+  margin-left: 70px;
+  height: 200px;
+}
+
+p{
+  text-align: center;
+}

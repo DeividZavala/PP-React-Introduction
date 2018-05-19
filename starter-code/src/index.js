@@ -5,7 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 import {BrowserRouter} from 'react-router-dom';
-import InjectTapEventPlugin from 'react-tap-event-plugin';
+// import InjectTapEventPlugin from 'react-tap-event-plugin';
 
 const WithRouter =()=>{
     return(
@@ -16,5 +16,5 @@ const WithRouter =()=>{
 
 ReactDOM.render(<WithRouter/>, document.getElementById('root'));
 registerServiceWorker();
-InjectTapEventPlugin();
+// InjectTapEventPlugin();
 

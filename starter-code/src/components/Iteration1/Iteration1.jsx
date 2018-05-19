@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Photo from './Photo'
+import {Link} from 'react-router-dom';
 
 class Iteration1 extends Component{
     render(){
@@ -11,6 +12,9 @@ class Iteration1 extends Component{
                     <Photo title="Barcelona" img="https://images.lucasfox.com/location/4x3_960w/836D68DCBD.jpg"/>
                     <Photo title="Paris" img="http://www.samatahome.com/wp-content/uploads/2017/11/DG2015-paris.jpg"/>
                 </div>
+                <Link to='/'>
+                <h3>Back to home</h3>
+                </Link>
             </div>
         )
     }

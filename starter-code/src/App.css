@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+}
+
+.iteration1 {
+    margin: 40px;
+}
+
+.iteration1-album {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.photo {
+    margin: 10px;
+    text-align: center;
+}
